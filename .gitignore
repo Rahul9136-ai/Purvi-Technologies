@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+*.py[oc]
+.venv/
+.env
+
+# uv
+uv.lock
+.python-version
+
+# Data files
+*.xlsx
