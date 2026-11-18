@@ -7,3 +7,9 @@ services:
     envVars:
       - key: PYTHON_VERSION
         value: 3.13.0
+      # Public URL of the site (change to your custom domain when you add one)
+      - key: SITE_URL
+        value: https://purvi-technologies.onrender.com
+      # Paste the code from Google Search Console > HTML tag verification
+      - key: GOOGLE_SITE_VERIFICATION
+        sync: false
